@@ -1,0 +1,477 @@
+@media only screen and (min-width: 1024px) { 
+    /* laptop - 1024 to 1300 */ 
+    body{
+        background-image: linear-gradient(#8EA0C8, #E6C2C2);
+        height: 100vh;
+    }
+    .section{
+        background-image:url("https://c1.wallpaperflare.com/preview/472/413/217/rain-window-blur-night.jpg") ;
+        background-size:cover;
+        position: relative;
+        left: 20vw;
+        top: 15vh;
+        width: 60vw;
+        height: 70vh;
+        border-radius: 15px;
+    }
+    .container{
+        padding: 1vh 10vh;
+    }
+    .dot{
+        text-align: right;
+        color: white;
+        padding: 2vh 0vh;
+    }
+    .dot > i{
+        position: relative; 
+        left: 2vw;
+    }
+    .row{
+        color: white;
+    }
+    .left{
+        color: white;
+    }
+    .san{
+        font-size: 5vh; 
+        margin-bottom: 0rem;
+    }
+    .sep{
+        margin-bottom: 0rem;
+    }
+    .cloud{
+        font-size: 5vh;
+    }
+    .right{
+        font-size: 15vh;
+        color: white;
+        text-align-last: right;
+    }
+    .up72{
+        position: relative;
+        bottom: 3.5vh;
+        font-weight: 100; 
+        margin-bottom: 0rem;
+    }
+    .right > .up72 > i{
+        font-size: 3vh;
+    }
+    .down72 > i{
+        font-size: 1vh;
+    }
+    .big-round{
+        font-size: 3vh;
+        position: relative;
+        bottom: 9vh;
+        position: relative;
+        right: 1vw;
+    }
+    .sml-round{
+        position: relative;
+        bottom: 3vh;
+        right: 0.5vw;
+    }
+    .down72{
+        font-size: 5vh;
+        position: relative;
+        bottom: 5vh;
+        right: 2vw
+    }
+    .cloudDown{
+        position: relative;
+        bottom: 3.4vh;
+    }
+    .line{
+        border-bottom: 1px solid rgb(173, 173, 173);
+    }
+    .dark{
+        border-bottom: 3px solid white; 
+        margin: 0px; 
+        padding-bottom: 0.3rem;
+    }
+    .link{
+        margin-bottom: 0.3rem;
+    }
+    .linkside{
+        color: white; 
+        text-align: right; 
+        padding-right: 2vw;
+    }
+    .degree{
+        font-size: 3vh;
+        margin-bottom: 0rem;
+        margin-top: 2vh;
+    }
+    .down{
+        font-size: 4vh;
+        position: relative;
+        bottom: 2vh;
+        left: 0.5vw;
+        margin-top: 2.5vh;
+    }
+    .down i{
+        font-size: 1vh;
+    }
+    .clr{
+        color: rgba(255, 255, 255, 0.883);
+    }
+}
+@media only screen and (min-width: 1300px) {
+    /* destop laptop - 1300> */
+    body{
+        background-image: linear-gradient(#8EA0C8, #E6C2C2);
+        height: 100vh;
+    }
+    .section{
+        background-image:url("https://c1.wallpaperflare.com/preview/472/413/217/rain-window-blur-night.jpg") ;
+        background-size:cover;
+        position: relative;
+        left: 20vw;
+        top: 15vh;
+        width: 60vw;
+        height: 70vh;
+        border-radius: 15px;
+    }
+    .container{
+        padding: 1vh 10vh;
+    }
+    .dot{
+        text-align: right;
+        color: white;
+        padding: 2vh 0vh;
+    }
+    .dot > i{
+        position: relative; 
+        left: 2vw;
+    }
+    .row{
+        color: white;
+    }
+    .left{
+        color: white;
+    }
+    .san{
+        font-size: 5vh; 
+        margin-bottom: 0rem;
+    }
+    .sep{
+        margin-bottom: 0rem;
+    }
+    .cloud{
+        font-size: 5vh;
+    }
+    .right{
+        font-size: 15vh;
+        color: white;
+        text-align-last: right;
+    }
+    .up72{
+        position: relative;
+        bottom: 3.5vh;
+        font-weight: 100; 
+        margin-bottom: 0rem;
+    }
+    .right >.up72 > i{
+        font-size: 3vh;
+    }
+    .down72 > i{
+        font-size: 1vh;
+    }
+    .big-round{
+        font-size: 3vh;
+        position: relative;
+        bottom: 9vh;
+        position: relative;
+        right: 1vw;
+    }
+    .sml-round{
+        position: relative;
+        bottom: 3vh;
+        right: 0.5vw;
+    }
+    .down72{
+        font-size: 5vh;
+        position: relative;
+        bottom: 5vh;
+        right: 2vw
+    }
+    .cloudDown{
+        position: relative;
+        bottom: 3.4vh;
+    }
+    .line{
+        border-bottom: 1px solid rgb(173, 173, 173);
+    }
+    .dark{
+        border-bottom: 3px solid white; 
+        margin: 0px; 
+        padding-bottom: 0.3rem;
+    }
+    .link{
+        margin-bottom: 0.3rem;
+    }
+    .linkside{
+        color: white; 
+        text-align: right; 
+        padding-right: 2vw;
+    }
+    .degree{
+        font-size: 3vh;
+        margin-bottom: 0rem;
+        margin-top: 2vh;
+    }
+    .down{
+        font-size: 4vh;
+        position: relative;
+        bottom: 2vh;
+        left: 0.5vw;
+        margin-top: 2.5vh;
+    }
+    .down i{
+        font-size: 1vh;
+    }
+    .clr{
+        color: rgba(255, 255, 255, 0.883);
+    }
+}
+@media only screen and (max-width: 1023px) {
+    /* tablet - 768 to 1024 */
+    body{
+        background-image: linear-gradient(#8EA0C8, #E6C2C2);
+        height: 100vh;
+    }
+    .section {
+        background-image: url(https://c1.wallpaperflare.com/preview/472/413/217/rain-window-blur-night.jpg);
+        background-size: cover;
+        position: relative;
+        left: 10vw;
+        top: 15vh;
+        width: 80vw;
+        height: 70vh;
+        border-radius: 15px;
+    }
+    .container{
+        padding: 1vh 10vh;
+    }
+    .dot{
+        text-align: right;
+        color: white;
+        padding: 2vh 0vh;
+    }
+    .dot > i{
+        position: relative; 
+        left: 2vw;
+    }
+    .row{
+        color: white;
+    }
+    .left{
+        color: white;
+    }
+    .san{
+        font-size: 5vh; 
+        margin-bottom: 0rem;
+    }
+    .sep{
+        margin-bottom: 0rem;
+    }
+    .cloud{
+        font-size: 5vh;
+    }
+    .right{
+        font-size: 15vh;
+        color: white;
+        text-align-last: right;
+    }
+    .up72{
+        position: relative;
+        bottom: 3.5vh;
+        font-weight: 100; 
+        margin-bottom: 0rem;
+    }
+    .right >.up72 > i{
+        font-size: 3vh;
+    }
+    .down72 > i{
+        font-size: 1vh;
+    }
+    .big-round{
+        font-size: 3vh;
+        position: relative;
+        bottom: 9vh;
+        position: relative;
+        right: 1vw;
+    }
+    .sml-round{
+        position: relative;
+        bottom: 3vh;
+        right: 0.5vw;
+    }
+    .down72{
+        font-size: 5vh;
+        position: relative;
+        bottom: 5vh;
+        right: 2vw
+    }
+    .cloudDown{
+        position: relative;
+        bottom: 3.4vh;
+    }
+    .line{
+        border-bottom: 1px solid rgb(173, 173, 173);
+    }
+    .dark{
+        border-bottom: 3px solid white; 
+        margin: 0px; 
+        padding-bottom: 0.3rem;
+    }
+    .link{
+        margin-bottom: 0.3rem;
+    }
+    .linkside{
+        color: white; 
+        text-align: right; 
+        padding-right: 2vw;
+    }
+    .degree{
+        font-size: 3vh;
+        margin-bottom: 0rem;
+        margin-top: 2vh;
+    }
+    .down{
+        font-size: 4vh;
+        position: relative;
+        bottom: 2vh;
+        left: 0.5vw;
+        margin-top: 2.5vh;
+    }
+    .down i{
+        font-size: 1vh;
+    }
+    .clr{
+        color: rgba(255, 255, 255, 0.883);
+    }
+}
+@media only screen and (max-width: 576px) {
+    /* mobile  < 768  */
+    body{
+        background-image: linear-gradient(#8EA0C8, #E6C2C2);
+        height: 100vh;
+    }
+    .section {
+        background-image: url(./background.jpg);
+        background-size: cover;
+        position: relative;
+        left: 2vw;
+        top: 3vh;
+        width: 96vw;
+        height: 94vh;
+        border-radius: 15px;
+    }
+    .container {
+        padding: 1vh 9vw 1vh 5vw;
+    }
+    .dot{
+        text-align: right;
+        color: white;
+        padding: 2vh 0vh;
+    }
+    .dot > i{
+        position: relative; 
+        left: 2vw;
+    }
+    .row{
+        color: white;
+    }
+    .left{
+        color: white;
+    }
+    .san{
+        font-size: 5vh; 
+        margin-bottom: 0.5rem;
+    }
+    .sep{
+        margin-bottom: 1rem;
+    }
+    .cloud{
+        font-size: 5vh;
+    }
+    .right{
+        font-size: 15vh;
+        color: white;
+        text-align-last: right;
+    }
+    .up72{
+        position: relative;
+        bottom: 3.5vh;
+        font-weight: 100; 
+        margin-bottom: 0rem;
+    }
+    .right > .up72 > i{
+        font-size: 3vh;
+    }
+    .down72 > i{
+        font-size: 1vh;
+    }
+    .big-round {
+        font-size: 3vh;
+        position: relative;
+        bottom: 9vh;
+        position: relative;
+        right: 4vw;
+    }
+    .sml-round{
+        position: relative;
+        bottom: 3vh;
+        right: 0.5vw;
+    }
+    .down72 {
+        font-size: 5vh;
+        position: relative;
+        bottom: 6vh;
+        right: 5vw;
+    }
+    .cloudDown{
+        position: relative;
+        bottom: -2vh;
+    }
+    .space {
+        padding: 0vh;
+        position: relative;
+        left: 3vw;
+    }
+    .line{
+        border-bottom: 1px solid rgb(173, 173, 173);
+    }
+    .dark{
+        border-bottom: 3px solid white; 
+        margin: 0px; 
+        padding-bottom: 1.3rem;
+    }
+    .link{
+        margin-bottom: 0.3rem;
+    }
+    .linkside{
+        color: white; 
+        text-align: right; 
+        padding-right: 2vw;
+    }
+    .degree {
+        font-size: 3vh;
+        margin-bottom: 1rem;
+        margin-top: 5vh;
+    }
+    .down{
+        font-size: 4vh;
+        position: relative;
+        bottom: 2vh;
+        left: 0.5vw;
+        margin-top: 2.5vh;
+    }
+    .down i{
+        font-size: 1vh;
+    }
+    .clr{
+        color: rgba(255, 255, 255, 0.883);
+    }
+}
