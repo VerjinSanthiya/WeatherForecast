@@ -1,9 +1,9 @@
+body{
+        background-image: linear-gradient(#8EA0C8, #E6C2C2);
+        max-height: 100vh;
+    }
 @media only screen and (min-width: 1024px) { 
     /* laptop - 1024 to 1300 */ 
-    body{
-        background-image: linear-gradient(#8EA0C8, #E6C2C2);
-        height: 100vh;
-    }
     .section{
         background-image:url("https://c1.wallpaperflare.com/preview/472/413/217/rain-window-blur-night.jpg") ;
         background-size:cover;
@@ -611,8 +611,21 @@
     }
 }
 @media only screen and (max-width: 355px) {
-    .cloudDown{
+    .cloudDown {
         position: relative;
-        bottom: 10vh;
+        bottom: 2vh;
+    }
+    .big-round {
+        font-size: 3vh;
+        position: relative;
+        bottom: 27vh;
+        position: relative;
+        right: -1vw;
+    }
+    .down72 {
+        font-size: 4vh;
+        position: relative;
+        bottom: 23vh;
+        right: 5vw;
     }
 }
