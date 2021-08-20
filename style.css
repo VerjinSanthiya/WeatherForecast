@@ -352,7 +352,7 @@
         color: rgba(255, 255, 255, 0.883);
     }
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 670px) {
     /* mobile  < 768  */
     body{
         background-image: linear-gradient(#8EA0C8, #E6C2C2);
@@ -473,5 +473,146 @@
     }
     .clr{
         color: rgba(255, 255, 255, 0.883);
+    }
+}
+@media only screen and (max-width: 424px) {
+    /* mobile  < 375  */
+    body{
+        background-image: linear-gradient(#8EA0C8, #E6C2C2);
+        height: 100vh;
+    }
+    .section {
+        background-image: url(./background.jpg);
+        background-size: cover;
+        position: relative;
+        left: 2vw;
+        top: 3vh;
+        width: 96vw;
+        height: 94vh;
+        border-radius: 15px;
+    }
+    .container {
+        padding: 1vh 4vw 1vh 4vw;
+    }
+    .dot{
+        text-align: right;
+        color: white;
+        padding: 2vh 0vh;
+    }
+    .dot > i{
+        position: relative; 
+        left: -4vw;
+    }
+    .row{
+        color: white;
+    }
+    .left{
+        color: white;
+    }
+    .san{
+        font-size: 5vh; 
+        margin-bottom: 0.5rem;
+    }
+    .sep{
+        margin-bottom: 1rem;
+    }
+    .cloud{
+        font-size: 5vh;
+    }
+    .right{
+        font-size: 15vh;
+        color: white;
+        text-align-last: right;
+    }
+    .up72{
+        position: relative;
+        bottom: 2.5vh;
+        left: -3vw;
+        font-size: 25vw;
+        font-weight: 100; 
+        margin-bottom: 0rem;
+    }
+    .right > .up72 > i{
+        font-size: 3vh;
+    }
+    .down72 > i{
+        font-size: 1vh;
+    }
+    .big-round {
+        font-size: 3vh;
+        position: relative;
+        bottom: 31vh;
+        position: relative;
+        right: -1vw;
+    }
+    .sml-round{
+        position: relative;
+        bottom: 3vh;
+        right: 0.5vw;
+    }
+    .down72 {
+        font-size: 4.5vh;
+        position: relative;
+        bottom: 26vh;
+        right: 5vw;
+    }
+    .cloudDown{
+        position: relative;
+        bottom: 20vh;
+    }
+    .space {
+        padding: 0vh;
+        position: relative;
+        left: 3vw;
+    }
+    .line{
+        border-bottom: 1px solid rgb(173, 173, 173);
+    }
+    .dark{
+        border-bottom: 3px solid white; 
+        margin: 0px; 
+        padding-bottom: 1.3rem;
+    }
+    .link{
+        margin-bottom: 0.3rem;
+    }
+    .linkside{
+        color: white; 
+        text-align: center; 
+        padding-right: 2vw;
+    }
+    .padding{
+        padding: 0px;
+    }
+    .degree {
+        font-size: 2.5vh;
+        margin-bottom: 1rem;
+        margin-top: 5vh;
+    }
+    .cloud_img {
+        width: 10vw;
+        height: 7vh;
+    }
+    .down {
+        font-size: 3.7vh;
+        position: relative;
+        bottom: 2vh;
+        left: 0.5vw;
+        margin-top: 4vh;
+    }
+    .down i{
+        font-size: 1vh;
+    }
+    .clr{
+        color: rgba(255, 255, 255, 0.883);
+    }
+    .pre{
+        padding-left: 2vw;
+    }
+}
+@media only screen and (max-width: 355px) {
+    .cloudDown{
+        position: relative;
+        bottom: 10vh;
     }
 }
